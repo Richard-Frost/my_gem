@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+#require './lib/ny_baseball_news'
+require "bundler/setup"
+require "ny_baseball_news"
+
+NyBaseballNews::CLI.new.call
+
